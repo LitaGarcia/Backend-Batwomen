@@ -59,7 +59,7 @@ server.post('/card', (req, resp) => {
     console.log(result);
     if (result !== undefined) {
       const responseSuccess = {
-        cardURL: `https://batwomen.herokuapp.com/${newCard.id}`,
+        cardURL: `https://batwomenlitagarcia.herokuapp.com/${newCard.id}`,
         success: true,
       };
       resp.json(responseSuccess);
